@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main\entry.cpp" />
+    <ClCompile Include="horizon\memory\scan.cpp" />
+    <ClCompile Include="horizon\storage\option.cpp" />
+    <ClCompile Include="horizon\win32\input.cpp" />
+    <ClCompile Include="sdk\sdk.cpp" />
+    <ClCompile Include="source\engine.cpp" />
+    <ClCompile Include="source\hook\present.cpp" />
+    <ClCompile Include="source\hook\reset.cpp" />
+    <ClCompile Include="horizon\memory\object_hook.cpp" />
+    <ClCompile Include="source\feature\gui.cpp" />
+    <ClCompile Include="source\feature\aimbot.cpp" />
+    <ClCompile Include="source\feature\triggerbot.cpp" />
+    <ClCompile Include="source\engine\net_prop_system.cpp" />
+    <ClCompile Include="source\engine\renderer.cpp" />
+    <ClCompile Include="sdk\math\qangle.cpp" />
+    <ClCompile Include="sdk\math\vector.cpp" />
+    <ClCompile Include="sdk\math\vector2d.cpp" />
+    <ClCompile Include="sdk\math\vector4d.cpp" />
+    <ClCompile Include="sdk\math\base.cpp" />
+    <ClCompile Include="horizon\imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="horizon\imgui\imgui_key.cpp" />
+    <ClCompile Include="horizon\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="horizon\imgui\imgui.cpp" />
+    <ClCompile Include="horizon\imgui\imgui_draw.cpp" />
+    <ClCompile Include="horizon\imgui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="horizon\system\system.cpp" />
+    <ClCompile Include="source\engine\factory.cpp" />
+    <ClCompile Include="sdk\object\player.cpp" />
+    <ClCompile Include="sdk\object\entity.cpp" />
+    <ClCompile Include="sdk\object\weapon.cpp" />
+    <ClCompile Include="source\hook\frame_stage_notify.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="horizon\include\auto.hpp" />
+    <ClInclude Include="horizon\include\win32.hpp" />
+    <ClInclude Include="horizon\memory\macro.hpp" />
+    <ClInclude Include="horizon\memory\scan.hpp" />
+    <ClInclude Include="horizon\detail\no_copy.hpp" />
+    <ClInclude Include="horizon\detail\no_move.hpp" />
+    <ClInclude Include="horizon\detail\singleton.hpp" />
+    <ClInclude Include="horizon\storage\option.hpp" />
+    <ClInclude Include="horizon\win32\input.hpp" />
+    <ClInclude Include="sdk\sdk.hpp" />
+    <ClInclude Include="horizon\auto.hpp" />
+    <ClInclude Include="source\engine.hpp" />
+    <ClInclude Include="source\hook\procedure.hpp" />
+    <ClInclude Include="horizon\memory\object_hook.hpp" />
+    <ClInclude Include="source\feature\gui.hpp" />
+    <ClInclude Include="source\feature\aimbot.hpp" />
+    <ClInclude Include="source\feature\triggerbot.hpp" />
+    <ClInclude Include="source\engine\net_prop_system.hpp" />
+    <ClInclude Include="source\engine\renderer.hpp" />
+    <ClInclude Include="sdk\math\qangle.hpp" />
+    <ClInclude Include="sdk\math\vector.hpp" />
+    <ClInclude Include="sdk\math\vector2d.hpp" />
+    <ClInclude Include="sdk\math\vector4d.hpp" />
+    <ClInclude Include="sdk\math\base.hpp" />
+    <ClInclude Include="horizon\imgui\imgui_impl_win32.hpp" />
+    <ClInclude Include="horizon\imgui\imgui_internal.hpp" />
+    <ClInclude Include="horizon\imgui\imgui_key.hpp" />
+    <ClInclude Include="horizon\imgui\imstb_rectpack.hpp" />
+    <ClInclude Include="horizon\imgui\imstb_textedit.hpp" />
+    <ClInclude Include="horizon\imgui\imstb_truetype.hpp" />
+    <ClInclude Include="horizon\imgui\imgui.hpp" />
+    <ClInclude Include="horizon\imgui\imgui_impl_dx9.hpp" />
+    <ClInclude Include="horizon\memory\procedure.hpp" />
+    <ClInclude Include="horizon\system\system.hpp" />
+    <ClInclude Include="source\engine\factory.hpp" />
+    <ClInclude Include="sdk\object\entity.hpp" />
+    <ClInclude Include="sdk\object\weapon.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sdk\object\player.hpp" />
+  </ItemGroup>
+</Project>
