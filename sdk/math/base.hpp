@@ -1,6 +1,6 @@
 #pragma once
 
-#include "horizon/auto.hpp"
+#include "shared/auto.hpp"
 
 #include "sdk/math/qangle.hpp"
 #include "sdk/math/vector.hpp"

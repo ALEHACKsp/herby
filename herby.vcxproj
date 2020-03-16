@@ -144,6 +144,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="shared\imgui\imgui.cpp" />
+    <ClCompile Include="shared\imgui\imgui_demo.cpp" />
     <ClCompile Include="shared\imgui\imgui_draw.cpp" />
     <ClCompile Include="shared\imgui\imgui_impl_dx9.cpp" />
     <ClCompile Include="shared\imgui\imgui_impl_win32.cpp" />
@@ -180,6 +181,7 @@
     <ClInclude Include="shared\detail\no_copy.hpp" />
     <ClInclude Include="shared\detail\no_move.hpp" />
     <ClInclude Include="shared\detail\singleton.hpp" />
+    <ClInclude Include="shared\imgui\imconfig.hpp" />
     <ClInclude Include="shared\imgui\imgui.hpp" />
     <ClInclude Include="shared\imgui\imgui_impl_dx9.hpp" />
     <ClInclude Include="shared\imgui\imgui_impl_win32.hpp" />

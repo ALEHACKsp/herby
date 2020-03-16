@@ -22,22 +22,22 @@ enum CSWeaponType
 class CCSWeaponInfo
 {
 public:
-	HORIZON_PAD( 0x0088 );
+	PAD( 0x0088 );
 	const char* m_hud_name = nullptr;
 	const char* m_weapon_name = nullptr;
-	HORIZON_PAD( 0x0038 );
+	PAD( 0x0038 );
 	CSWeaponType m_type = WEAPONTYPE_UNKNOWN;
-	HORIZON_PAD( 0x0020 );
+	PAD( 0x0020 );
 	int m_damage = 0;
 	float m_armor_ratio = 0.f;
 	int m_bullets = 0;
 	float m_penetration = 0.f;
-	HORIZON_PAD( 0x0008 );
+	PAD( 0x0008 );
 	float m_range = 0.f;
 	float m_range_modifier = 0.f;
-	HORIZON_PAD( 0x0030 );
+	PAD( 0x0030 );
 	float m_inaccuracy_crouch = 0.f;
-	HORIZON_PAD( 0x0030 );
+	PAD( 0x0030 );
 	float m_inaccuracy_move = 0.f;
 };
 

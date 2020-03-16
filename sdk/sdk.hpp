@@ -41,7 +41,7 @@ class IVEngineClient;
 
 struct player_info_t
 {
-	HORIZON_PAD( 0x0008 );
+	PAD( 0x0008 );
 
 	union
 	{
@@ -57,7 +57,7 @@ struct player_info_t
 	char name[ 128 ] = { };
 	int userID = 0;
 	char guid[ 20 ] = { };
-	HORIZON_PAD( 0x0010 );
+	PAD( 0x0010 );
 	std::uint32_t friendsID = 0;
 	char friendsName[ 128 ] = { };
 	bool fakeplayer = false;
@@ -204,7 +204,7 @@ public:
 // other structs
 //
 
-#include "horizon/imgui/imgui.hpp"
+#include "shared/imgui/imgui.hpp"
 
 struct render_line_data_t
 {

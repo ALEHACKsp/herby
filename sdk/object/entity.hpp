@@ -1,6 +1,6 @@
 #pragma once
 
-#include "source/engine/net_prop_system.hpp"
+#include "csgo/engine/net_prop_system.hpp"
 
 //#include "sdk/object/weapon.hpp"
 
