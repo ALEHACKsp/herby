@@ -15,7 +15,6 @@
     <ClCompile Include="shared\imgui\imgui_draw.cpp" />
     <ClCompile Include="shared\imgui\imgui_impl_dx9.cpp" />
     <ClCompile Include="shared\imgui\imgui_impl_win32.cpp" />
-    <ClCompile Include="shared\imgui\imgui_key.cpp" />
     <ClCompile Include="shared\imgui\imgui_widgets.cpp" />
     <ClCompile Include="shared\memory\object_hook.cpp" />
     <ClCompile Include="shared\memory\scan.cpp" />
@@ -51,7 +50,6 @@
     <ClInclude Include="shared\imgui\imgui_impl_dx9.hpp" />
     <ClInclude Include="shared\imgui\imgui_impl_win32.hpp" />
     <ClInclude Include="shared\imgui\imgui_internal.hpp" />
-    <ClInclude Include="shared\imgui\imgui_key.hpp" />
     <ClInclude Include="shared\imgui\imstb_rectpack.hpp" />
     <ClInclude Include="shared\imgui\imstb_textedit.hpp" />
     <ClInclude Include="shared\imgui\imstb_truetype.hpp" />
