@@ -1,6 +1,6 @@
 #pragma once
 
-#include "csgo/auto.hpp"
+#include "shared/auto.hpp"
 
 namespace csgo::hook
 {
